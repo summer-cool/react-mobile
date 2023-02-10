@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" appearance="light">
+    <head>
+        <meta charset="utf-8">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="yes" name="apple-touch-fullscreen">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta content="telephone=no,email=no" name="format-detection">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+        <title>yondif</title>
+    </head>
+
+    <body>
+        <div id="app"></div>
+        <!-- 骨架图 -->
+        <div id="preAppIndex">
+            <div class="bg-1">
+                <div class="test-box"></div>
+            </div>
+            <div class="bg-2"></div>
+            <div class="bg-3">
+                <div class="bg-3-left">
+                    <div class="bg-3-1"></div>
+                    <div class="bg-3-2"></div>
+                    <div class="bg-3-1"></div>
+                    <div class="bg-3-2"></div>
+                    <div class="bg-3-1"></div>
+                </div>
+                <div class="bg-3-right"></div>
+            </div>
+            <div class="bg-4"></div>
+            <div class="bg-2"></div>
+            <div class="bg-3">
+                <div class="bg-3-left">
+                    <div class="bg-3-1"></div>
+                    <div class="bg-3-2"></div>
+                    <div class="bg-3-1"></div>
+                    <div class="bg-3-2"></div>
+                    <div class="bg-3-1"></div>
+                </div>
+                <div class="bg-3-right"></div>
+            </div>
+        </div>
+
+        <% if(__ENV__ === 'daily'){ %>
+            <script src="https://cdn.bootcss.com/vConsole/3.3.0/vconsole.min.js"></script>
+            <script>
+                var vConsole = new VConsole()
+            </script>
+        <% } %>
+    </body>
+</html>
