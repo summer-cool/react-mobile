@@ -14,7 +14,8 @@
 1. npm i
 2. npm run dev
 3. 浏览器访问：localhost:5555
-
+- 单位(rem)  100px = 1rem 根据业务自己调整postcss.config.js
+- axios及store使用内部有实例
 ## 测试环境打包
 - npm run test-build
 

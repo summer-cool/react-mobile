@@ -5,6 +5,7 @@ export default {
             userInfoError: 'Failed to obtain user Info',
             errorAndReload: 'Failed to load data. Please refresh and try again',
             reload: 'Refresh',
-        }
+        },
+        h:'hello world!'
     }
 }

@@ -7,5 +7,6 @@ export default {
             errorAndReload: '數據加載失敗，請刷新重試',
             reload: '刷新重試',
         },
+        h:'hello world!'
     },
 };

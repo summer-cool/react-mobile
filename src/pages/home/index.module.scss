@@ -1,15 +1,4 @@
 .home{
-    font-size: var(--font-size);
+    font-size: 50px;
     min-height: 100vh;
-    background-color: var(--portal-bgColor);
-    background-image: var(--portal-bgImg);
-    background-repeat: var(--portal-bgRepeat);
-    background-size: var(--portal-bgSize);
-    border-top: 1px solid transparent;
-    background-origin: border-box;
-    border-top-left-radius: var(--portal-borderTopLeftRadius);
-    border-top-right-radius: var(--portal-borderTopRightRadius);
-    border-bottom-right-radius: var(--portal-borderBottomRightRadius);
-    border-bottom-left-radius: var(--portal-borderBottomLeftRadius);
-    padding-bottom: 10px;
 }
